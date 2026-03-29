@@ -13,9 +13,9 @@ python main.py 843              # → the tie
 python main.py 4663             # → gone good home
 python main.py 843 4663 2255    # batch lookup
 python main.py                  # in ra tất cả 617 từ
-
+```
 # Dùng trong Python code:
-```bash
+```Python
 from main import unfold, t9
 
 words = unfold()          # ['able', 'about', ..., 'young']
